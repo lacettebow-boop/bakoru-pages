@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "bakuro-pages",
+  "name": "bakoru-pages",
   "main": "src/worker/index.ts",
   "compatibility_date": "2025-09-01",
   "assets": {
@@ -16,7 +16,7 @@
       "binding": "DB",
       "database_name": "bakuro",
       // Replace after running: npx wrangler d1 create bakuro
-      "database_id": "REPLACE_WITH_D1_DATABASE_ID",
+      "database_id": "d95979b7-e516-4062-b9bf-f3e4bbbb841c",
       "migrations_dir": "migrations"
     }
   ]
